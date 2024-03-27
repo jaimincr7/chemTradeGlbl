@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+The Live link of the project is [CGIL](https://cgil.in/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
