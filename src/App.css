@@ -72,3 +72,10 @@
   font-size: 15px;
   color: #FFFFFF;
 }
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .heading {
+    text-align: center;
+  }
+}
