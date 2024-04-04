@@ -31,7 +31,7 @@ const ComingSoon = () => {
           console.log('FAILED...', error.text);
         },
       );
-      
+      //This is random comment
     form.resetFields();
     setOpenGetInTouch(false);
   };
