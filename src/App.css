@@ -51,6 +51,77 @@
   flex-direction: column;
 }
 
+.container-products {
+  background-image: url('./Assets/images/allProducts.png');
+  background-size: 100% auto, contain; /* Adjusts height to fit the entire image while maintaining aspect ratio */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 170vh; /* Set a minimum height equal to viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-get-quote {
+  background-image: url('./Assets/images/getQuote.jpg');
+  background-size: 100% auto, contain; /* Adjusts height to fit the entire image while maintaining aspect ratio */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-about-us {
+  background-image: url('./Assets/images/aboutUsBanner.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-contact-us {
+  background-image: url('./Assets/images/contactUsBanner.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-about-us-small {
+  background-image: url('./Assets/images/aboutUSPage.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Chemicals {
+  background-color: #EFEFEF;
+}
+
+.ChemicalHeading{
+  margin-top: 15px;
+  font-size: medium;
+  font-weight: 400;
+}
+
 .center-text {
   text-align: center;
 }
@@ -61,21 +132,74 @@
   font-size: 60px;
 }
 
+.header {
+  min-height: 80px;
+}
+
 .highlight {
   color: #FBC311;
   font-weight: 700;
 }
 
+.highlight-md {
+  color: #FBC311;
+  font-weight: 500;
+  font-size: 72px;
+}
+
+.highlight-ab {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 72px;
+}
+
 .description {
   color: white;
   font-weight: 60;
-  font-size: 15px;
+  font-size: 25px;
   color: #FFFFFF;
+}
+
+.description-md {
+  color: white;
+  font-weight: 55;
+  font-size: 56px;
+  color: #FFFFFF;
+}
+
+.ant-modal-title {
+  text-align: center;
+}
+
+.AboutUsPic {
+  min-height: 50px;
+  background-color: '#D9D9D9';
+}
+
+.centeredCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 70%;
 }
 
 /* Media Queries */
 @media screen and (max-width: 600px) {
-  .heading {
+  .heading, .big-texts {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .adres {
+    /* If the screen width is less than 600px, apply these styles */
+    overflow-wrap: break-word; /* For older browsers */
+    word-wrap: break-word; /* For modern browsers */
   }
 }
