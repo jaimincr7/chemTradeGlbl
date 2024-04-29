@@ -1,15 +1,16 @@
 import React from 'react';
 import Header from '../Header/Header';
-import BrandStory from './BrandStory/BrandStory';
+import Product from './Product/Product';
 
-const AboutUs = () => {
+const Products = () => {
+  
 
   return (
     <>
       <Header/>
-      <BrandStory/>
+      <Product/>
     </>
   )
 }
 
-export default AboutUs
+export default Products

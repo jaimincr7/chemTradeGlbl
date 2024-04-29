@@ -100,8 +100,8 @@
   flex-direction: column;
 }
 
-.container-about-us-small {
-  background-image: url('./Assets/images/aboutUSPage.png');
+.container-product {
+  background-image: url('./Assets/images/productBenner.png');
   background-size: cover;
   background-position: center;
   width: 100%;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Row, Col, Card, Form, } from 'antd';
 import location from '../../../Assets/images/location.png';
 import phone from '../../../Assets/images/phone.png';
@@ -85,7 +85,7 @@ const Contact = () => {
               <input type='text' placeholder='Contact No.: +91 9988775566' className='custom-input' />
             </Form.Item>
             <Form.Item name="message" >
-              <input type='text' placeholder='Contact No.: +91 9988775566' className='custom-input' />
+              <input type='text' placeholder='Message' className='custom-input' />
             </Form.Item>
             <Form.Item >
               <Button shape="round" htmlType="submit" style={{ borderColor: '#FBC311' }}>
@@ -98,8 +98,8 @@ const Contact = () => {
       <br />
       <br />
       <br />
-      <div className='App'>
-        <img src={map} alt="Sample" style={{ height: '380px', width: '800px' }} />
+      <div className='App' style={{margin: '35px'}}>
+        <img src={map} alt="Sample"  style={{ maxHeight: '320px'}}/>
       </div>
       <br />
       <div className='App' style={{ lineHeight: '1px' }}>

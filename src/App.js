@@ -5,6 +5,7 @@ import ComingSoon from './Pages/ComingSoon/ComingSoon';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import Products from './Pages/Products/Products';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/landing" element={<LandingPage />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/products" element={<Products />} />
         </Routes>
       </Suspense>
     </Router>
