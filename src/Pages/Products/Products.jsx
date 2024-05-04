@@ -4,7 +4,6 @@ import Product from './Product/Product';
 
 const Products = () => {
   
-
   return (
     <>
       <Header/>

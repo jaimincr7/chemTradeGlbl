@@ -8,11 +8,13 @@ import ContactUs from './Pages/ContactUs/ContactUs';
 import Products from './Pages/Products/Products';
 
 function App() {
+
+  console.log(window.location.href)
   return (
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
-        <Routes>
-          <Route path="/" element={<ComingSoon />} />
+        <Routes >
+          <Route exact path="/" element={<ComingSoon />} />
           <Route path="/landing" element={<LandingPage />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />

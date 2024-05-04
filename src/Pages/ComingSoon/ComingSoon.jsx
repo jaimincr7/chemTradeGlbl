@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import logo from '../../Assets/images/CTLogo.png';
 import { Button, Modal, Form, Space, Input, } from 'antd';
 import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom';
 
 const ComingSoon = () => {
   const [form] = Form.useForm();
+  const navigate = useNavigate();
 
   const [openGetInTouch, setOpenGetInTouch] = useState(false);
 
@@ -51,7 +53,7 @@ const ComingSoon = () => {
         <div className="container">
           <div >
             <div className="center-text">
-              <img src={logo} alt="Sample" style={{ width: '250px', height: 'auto' }} />
+              <img src={logo} alt="Sample" style={{ width: '250px', height: 'auto' }} onClick={() => {navigate('/landing')} }/>
             </div>
             <h1 className="heading">
               Coming <span className="highlight">Soon!</span>
