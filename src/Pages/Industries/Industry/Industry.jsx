@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Card } from 'antd';
 
-const BrandStory = () => {
+const Industry = () => {
 
 
   return (
@@ -68,4 +68,4 @@ const BrandStory = () => {
   )
 }
 
-export default BrandStory
+export default Industry

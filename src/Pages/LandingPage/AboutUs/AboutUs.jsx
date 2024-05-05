@@ -12,9 +12,7 @@ const AboutUs = () => {
         </div>
         <div style={{ marginTop: '20px', marginBottom: '20px' }}>
           <Row>
-            <Col span={2}>
-            </Col>
-            <Col span={8}>
+            <Col xs={{ span: 24 }} lg={{ span: 10, offset: 2 }}>
               <div className='App'>
                 <span style={{ fontWeight: 'normal', fontSize: '20px', color: '#A2328E' }}> Chemtrade Global </span>
                 <span style={{ fontWeight: 'normal', fontSize: '20px', color: '#FBC311' }}>  Impex LLP </span>
@@ -27,14 +25,10 @@ const AboutUs = () => {
                 </div>
               </div>
             </Col>
-            <Col span={2}>
-            </Col>
-            <Col span={8}>
-              <div className='AboutUsPic' style={{ backgroundColor: 'grey', margin: '25px' }}>
+            <Col xs={{ span: 24 }} lg={{ span: 10, offset: 2 }}>
+              <div className='AboutUsPic' style={{ backgroundColor: 'grey', width: '60%' }}>
                 <img src={smallAboutUs} alt="Sample" />
               </div>
-            </Col>
-            <Col span={2}>
             </Col>
           </Row>
         </div>

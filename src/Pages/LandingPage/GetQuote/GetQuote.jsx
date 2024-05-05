@@ -11,7 +11,7 @@ const GetQuote = () => {
         <div style={{ fontSize: '40px' }}>
           <span style={{ color: 'white' }}>Get a </span><span style={{ color: '#FBC311' }}>Quote Today</span>
         </div>
-        <p style={{ color: 'white', width: '35%' }}>
+        <p style={{ color: 'white', width: '75%', textAlign: 'center' }}>
           Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece old.
         </p>
         <div>

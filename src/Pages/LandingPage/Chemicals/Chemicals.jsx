@@ -14,50 +14,42 @@ const Chemicals = () => {
         <br />
         <div style={{ marginTop: '20px', }}>
           <Row>
-            <Col span={3}>
-            </Col>
-            <Col span={6}>
+            <Col xs={{ span: 24 }} lg={{ span: 6, offset: 2 }}>
               <div className='App'>
                 <img src={chemicals} alt="Sample" style={{ maxHeight: '128px' }} />
                 <br />
                 <span style={{ fontSize: '13px', fontWeight: 'bold' }}>Di Methyl Formamide</span>
               </div>
             </Col>
-            <Col span={6}>
+            <Col xs={{ span: 24 }} lg={{ span: 6, offset: 2 }}>
               <div className='App'>
                 <img src={chemicals} alt="Sample" style={{ maxHeight: '128px' }} />
                 <br />
                 <span style={{ fontSize: '13px', fontWeight: 'bold' }}>Sodium Formate</span>
               </div>
             </Col>
-            <Col span={6}>
+            <Col xs={{ span: 24 }} lg={{ span: 6, offset: 2 }}>
               <div className='App'>
                 <img src={chemicals} alt="Sample" style={{ maxHeight: '128px' }} />
                 <br />
                 <span style={{ fontSize: '13px', fontWeight: 'bold' }}>Pentaerythritol</span>
               </div>
             </Col>
-            <Col span={1}>
-            </Col>
           </Row>
           <Row>
-            <Col span={4}>
-            </Col>
-            <Col span={8}>
+            <Col  xs={{ span: 24 }} lg={{ span: 6, offset: 4 }}>
               <div className='App'>
                 <img src={chemicals} alt="Sample" style={{ maxHeight: '128px' }} />
                 <br />
                 <span style={{ fontSize: '13px', fontWeight: 'bold' }}>Solvent C-9</span>
               </div>
             </Col>
-            <Col span={8}>
+            <Col  xs={{ span: 24 }} lg={{ span: 6, offset: 4 }}>
               <div className='App'>
                 <img src={chemicals} alt="Sample" style={{ maxHeight: '128px' }} />
                 <br />
                 <span style={{ fontSize: '13px', fontWeight: 'bold' }}>Hexane</span>
               </div>
-            </Col>
-            <Col span={4}>
             </Col>
           </Row>
           <br />

@@ -20,7 +20,6 @@ const ComingSoon = () => {
   };
 
   const onFinish = (values) => {
-
     emailjs
       .send('service_bq6wuhh', 'template_xslubdk', values, {
         publicKey: 'rRONxuEeNPdBVCGk0',
@@ -33,7 +32,7 @@ const ComingSoon = () => {
           console.log('FAILED...', error.text);
         },
       );
-      //This is random comment
+    //This is random comment
     form.resetFields();
     setOpenGetInTouch(false);
   };
@@ -66,7 +65,6 @@ const ComingSoon = () => {
             </p>
             <div style={{ margin: '0 auto', width: '198px', textAlign: 'center' }}>
               <Button shape="round" onClick={showModal}>Get in Touch</Button>
-
             </div>
           </div>
         </div>
@@ -109,7 +107,6 @@ const ComingSoon = () => {
         </Form>
       </Modal>
     </>
-
   )
 }
 
