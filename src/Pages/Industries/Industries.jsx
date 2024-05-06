@@ -2,14 +2,16 @@ import React from 'react';
 import Header from '../Header/Header';
 import Industry from './Industry/Industry';
 
-const industries = () => {
+const Industries = () => {
 
   return (
     <>
-      <Header/>
-      <Industry/>
+      <div style={{ overflowX: 'hidden' }}>
+        <Header />
+        <Industry />
+      </div>
     </>
   )
 }
 
-export default industries
+export default Industries

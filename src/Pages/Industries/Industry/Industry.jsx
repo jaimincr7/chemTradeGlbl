@@ -1,69 +1,154 @@
 import React from 'react';
-import { Row, Col, Card } from 'antd';
+import { Row, Col, Card, Button } from 'antd';
+import icon1 from '../../../Assets/images/Group 15.png';
+import icon2 from '../../../Assets/images/Group 16.png';
+import icon3 from '../../../Assets/images/Group 17.png';
+import icon4 from '../../../Assets/images/Group 18.png';
+import icon5 from '../../../Assets/images/Group 19.png';
+import icon6 from '../../../Assets/images/Group 20.png';
+import icon7 from '../../../Assets/images/Group 21.png';
+import icon8 from '../../../Assets/images/Group 22.png';
+import icon9 from '../../../Assets/images/Group 23.png';
+import icon10 from '../../../Assets/images/Group 24.png';
+import icon11 from '../../../Assets/images/Group 25.png';
+import icon12 from '../../../Assets/images/Group 26.png';
+import icon13 from '../../../Assets/images/Group 27.png';
+import icon14 from '../../../Assets/images/Group 28.png';
+import icon15 from '../../../Assets/images/Group 29.png';
 
 const Industry = () => {
 
 
   return (
     <>
-      <div className="container-about-us">
-        <span className="highlight-ab big-texts">Brand Story</span>
+      <div className="container-industry">
+        <span className="highlight-ab big-texts">Industries</span>
         <br />
       </div>
+      <br />
+      <div className='App' >
+        <h2>
+          <span style={{ fontWeight: '400' }}>We cater to multiple </span>
+          <span style={{ color: '#FBC311' }}> Chemical Industries</span>
+        </h2>
+        <p style={{ fontWeight: '400', fontSize: '15px', wordBreak: 'break-word' }}>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece old.
+        </p>
+      </div>
+      <br />
       <div>
-        <Row>
-          <Col span={4}>
-          </Col>
-          <Col span={8}>
+        <Row justify="center" gutter={[16, 16]}>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
             <div className='App'>
               {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
-
+              <img src={icon1} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Agro Chemicals</p>
             </div>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
             <div className='App'>
-              <h2>
-                From around the <span style={{ color: '#FBC311' }}>World</span> to your Doorstep
-              </h2>
-              <p style={{ fontSize: 'small' }}>
-                With a long-standing experience of over 30 years, Mr. Ashish K. Shah the founding partner, along with the efforts of his professionally specialised team, started this organization with a vision to establish the largest supply chain in order to cater to the wide range of industries both domestically and internationally.
-                Starting from a small business, involved in supply of chemical ingredients and solvents to a single market; Chemtrade Global Impex LLP has presently grown into a successful service provider to the industry of chemicals
-              </p>
+              <img src={icon2} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Construction</p>
             </div>
           </Col>
-          <Col span={4}>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
+              <img src={icon3} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Fiberglass</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              <img src={icon4} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Flavours & Fragrances</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
+              <img src={icon5} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Food & Beverages</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              <img src={icon6} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Laminates & Plywood</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
+              <img src={icon7} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Leather</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              <img src={icon8} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Lubricants & Automobiles</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
+              <img src={icon9} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Oil & Gas</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              <img src={icon10} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Paints & Coatings</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
+              <img src={icon11} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Printing Inks</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              <img src={icon12} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Packaging</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              <img src={icon13} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Paper</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
+              <img src={icon14} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Personal Care</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              <img src={icon15} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
+              <p style={{ fontSize: '13px' }}>Pharmaceuticals</p>
+            </div>
+          </Col>
+          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+            <div className='App'>
+              <h3 style={{ fontSize: '33px', color: '#FBC311', whiteSpace: 'pre-wrap' }}>&amp; Many More</h3>
+            </div>
           </Col>
         </Row>
       </div>
       <br />
-      <div className="container-about-us-small App">
-        <h1 className="highlight-ab big-texts" style={{ color: 'black'}}>Brand <span style={{ color: '#FBC311' }}>Story</span></h1>
-        <br />
+      <div className='App' style={{ marginTop: '15px' }}>
+        <Button shape="round" style={{ borderWidth: '0.5px', borderColor: '#FBC311', width: '140px' }}>View Products</Button>
       </div>
       <br />
       <br />
-      <div>
-        <Row gutter={[16,16]}>
-          <Col xs={{ span: 20, offset: 2 }} lg={{ span: 8, offset: 3 }}>
-            <Card style={{ backgroundColor: '#EFEFEF' }}>
-              <h3 className='App'>Mission</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.
-              </p>
-            </Card>
-          </Col>
-          <Col xs={{ span: 20, offset: 2 }} lg={{ span: 8, offset: 3 }}>
-            <Card style={{ backgroundColor: '#EFEFEF' }}>
-              <h3 className='App'>Vision</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.
-              </p>
-            </Card>
-          </Col>
-        </Row>
-      </div>
-      <br />
-      <br />
+
     </>
   )
 }

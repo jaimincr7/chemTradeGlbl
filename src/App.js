@@ -6,6 +6,7 @@ import LandingPage from './Pages/LandingPage/LandingPage';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import Products from './Pages/Products/Products';
+import Industries from './Pages/Industries/Industries';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/industry" element={<Industries />} />
         </Routes>
       </Suspense>
     </Router>

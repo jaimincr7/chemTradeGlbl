@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Card } from 'antd';
+import abtUs from '../../../Assets/images/AboutPage1.png';
 
 const BrandStory = () => {
 
@@ -10,17 +11,17 @@ const BrandStory = () => {
         <span className="highlight-ab big-texts">Brand Story</span>
         <br />
       </div>
+      <br />
       <div>
-        <Row>
-          <Col span={4}>
-          </Col>
-          <Col span={8}>
+        <br />
+        <Row justify="center" gutter={[16, 16]}>
+          <Col xs={{ span: 24 }} lg={{ span: 6, }}>
             <div className='App'>
-              {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
+              <img src={abtUs} alt="Sample" style={{ maxHeight: '300px' }} />
 
             </div>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} lg={{ span: 6, }}>
             <div className='App'>
               <h2>
                 From around the <span style={{ color: '#FBC311' }}>World</span> to your Doorstep
@@ -31,19 +32,17 @@ const BrandStory = () => {
               </p>
             </div>
           </Col>
-          <Col span={4}>
-          </Col>
         </Row>
       </div>
       <br />
       <div className="container-about-us-small App">
-        <h1 className="highlight-ab big-texts" style={{ color: 'black'}}>Brand <span style={{ color: '#FBC311' }}>Story</span></h1>
+        <h1 className="highlight-ab big-texts" style={{ color: 'black' }}>Brand <span style={{ color: '#FBC311' }}>Story</span></h1>
         <br />
       </div>
       <br />
       <br />
       <div>
-        <Row gutter={[16,16]}>
+        <Row gutter={[16, 16]}>
           <Col xs={{ span: 20, offset: 2 }} lg={{ span: 8, offset: 3 }}>
             <Card style={{ backgroundColor: '#EFEFEF' }}>
               <h3 className='App'>Mission</h3>
