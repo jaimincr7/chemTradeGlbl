@@ -10,7 +10,6 @@ import Industries from './Pages/Industries/Industries';
 
 function App() {
 
-  console.log(window.location.href)
   return (
     <Router>
       <Suspense fallback={<div>Loading...</div>}>

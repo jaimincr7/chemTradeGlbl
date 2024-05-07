@@ -99,7 +99,7 @@ const Contact = () => {
       <br />
       <br />
       <div className='App' style={{margin: '35px'}}>
-        <img src={map} alt="Sample"  style={{ maxHeight: '320px'}}/>
+        <img className='little-contact' src={map} alt="Sample"  style={{ maxHeight: '320px'}}/>
       </div>
       <br />
       <div className='App' style={{ lineHeight: '1px' }}>

@@ -79,26 +79,26 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 Food Chemicals
               </h3>
-              <ul style={{ wordWrap: 'break-word' }} >
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }} >
                 <p>Mono-n-Butylamine</p>
                 <p>Di-n-Butylamine</p>
                 <p>Tri-n-Butylamine</p>
               </ul>
             </Col>
             <Col xs={{ span: 12, offset: 1 }} lg={{ span: 6, }}>
-              <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
+              <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', }}>
                 CYCLOHEXYLAMINE
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Monocyclohexylamine</p>
                 <p>Dicyclohexylamine</p>
               </ul>
             </Col>
             <Col xs={{ span: 12, offset: 1 }} lg={{ span: 6, }}>
-              <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
+              <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold',  }}>
                 CYCLOHEXYLAMINE
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Monomethylamine</p>
                 <p>Dimethylamine</p>
                 <p>Trimethylamine</p>
@@ -108,17 +108,17 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 ETHYLAMINE
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Monomethylamine</p>
                 <p>Dimethylamine</p>
                 <p>Trimethylamine</p>
               </ul>
             </Col>
             <Col xs={{ span: 12, offset: 1 }} lg={{ span: 6, }}>
-              <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
+              <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', }}>
                 ETHYLHEXYLAMINE
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word', }}>
                 <p>Mono-2-Ethylhexylamine</p>
                 <p>Bis-2-Ethylhexylamine</p>
               </ul>
@@ -127,7 +127,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 ISOPROPYLAMINE
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Monocyclohexylamine</p>
                 <p>Dicyclohexylamine</p>
               </ul>
@@ -136,7 +136,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 PROPYLAMINE
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Mono-n-Butylamine</p>
                 <p>Di-n-Butylamine</p>
                 <p>Tri-n-Butylamine</p>
@@ -146,7 +146,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 ETHANOLMINES
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Monomethylamine</p>
                 <p>Dimethylamine</p>
                 <p>Trimethylamine</p>
@@ -156,7 +156,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 ALPHATIC SOLVENTS
               </h3>
-              <ul style={{ wordWrap: 'break-word' }} >
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }} >
                 <p>Hexanes</p>
                 <p>Petroleum Ethers</p>
               </ul>
@@ -165,7 +165,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 CHLORINATED SOLVENTS
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Methylene Chloride </p>
                 <p>Perchloroethylene</p>
                 <p>Trichloroethylene</p>
@@ -173,7 +173,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 KETONES
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Acetone   </p>
                 <p>Cyclohexanone</p>
                 <p>Methyl Ethyl Ketone</p>
@@ -184,7 +184,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 ACID & ESTERS
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Acetic Acid</p>
                 <p>Citric Acid</p>
                 <p>DL Tartaric Acid</p>
@@ -200,7 +200,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 HYDROCARBONS
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Solvent Naptha    </p>
                 <p>Toluene</p>
                 <p>Ortho Xylene</p>
@@ -212,7 +212,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 ALCOHOLS
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Methanol</p>
                 <p>N-Butanol</p>
                 <p>Iso Propyl Alcohol</p>
@@ -227,7 +227,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 GLYCOLS
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Mono Ethylene Glycol</p>
                 <p>Di Ethylene Glycol</p>
                 <p>MP Diol Glycol</p>
@@ -243,7 +243,7 @@ const Product = () => {
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 MONOMERS
               </h3>
-              <ul style={{ wordWrap: 'break-word' }}>
+              <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
                 <p>Styrene Monomer      </p>
                 <p>Acrylic Acid</p>
                 <p>Methyl Acrylate</p>
@@ -265,7 +265,7 @@ const Product = () => {
       </div>
       <Row justify="space-evenly">
         <Col xs={{ span: 12, offset: 1 }} lg={{ span: 6, }}>
-          <ul style={{ wordWrap: 'break-word' }} >
+          <ul className='chotu-letters' style={{ wordWrap: 'break-word' }} >
             <p>Acetonitrile</p>
             <p>Maleic Anhydride</p>
             <p>Di Methyl Carbonate</p>
@@ -276,7 +276,7 @@ const Product = () => {
           </ul>
         </Col>
         <Col xs={{ span: 12, offset: 1 }} lg={{ span: 6, }}>
-          <ul style={{ wordWrap: 'break-word' }} >
+          <ul className='chotu-letters' style={{ wordWrap: 'break-word' }} >
             <p>Methane Sulphonic Acid</p>
             <p>Dicyandiamide</p>
             <p>Ethyl Chloro Formate</p>
@@ -288,7 +288,7 @@ const Product = () => {
           </ul>
         </Col>
         <Col xs={{ span: 12, offset: 1 }} lg={{ span: 6, }}>
-          <ul style={{ wordWrap: 'break-word' }} >
+          <ul className='chotu-letters' style={{ wordWrap: 'break-word' }} >
             <p>Pentaerythritol 95% / 98%</p>
             <p>Tetrahydrofuran</p>
             <p>N-Heptane</p>

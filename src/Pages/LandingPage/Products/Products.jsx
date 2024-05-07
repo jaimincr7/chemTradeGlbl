@@ -7,7 +7,6 @@ import img4 from '../../../Assets/images/Untitled-1-04.png';
 
 const Products = () => {
 
-
   return (
     <>
       <div className="container-products">
