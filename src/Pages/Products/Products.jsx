@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Product from './Product/Product';
+import Footer from '../Footer/Footer';
 
 const Products = () => {
   
@@ -8,6 +9,7 @@ const Products = () => {
     <>
       <Header/>
       <Product/>
+      <Footer />
     </>
   )
 }

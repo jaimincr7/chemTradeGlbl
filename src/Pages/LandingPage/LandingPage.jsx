@@ -6,6 +6,7 @@ import Products from './Products/Products';
 import Stats from './Stats/Stats';
 import Chemicals from './Chemicals/Chemicals';
 import GetQuote from './GetQuote/GetQuote';
+import Footer from '../Footer/Footer';
 
 const LandingPage = () => {
   
@@ -19,6 +20,7 @@ const LandingPage = () => {
       <Stats />
       <Chemicals />
       <GetQuote />
+      <Footer />
     </>
   )
 }

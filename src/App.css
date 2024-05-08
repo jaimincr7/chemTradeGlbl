@@ -136,6 +136,12 @@
   flex-direction: column;
 }
 
+.container-footer {
+  background-color: #003D83;
+  background-size: cover;
+  background-position: center;
+}
+
 .Chemicals {
   background-color: #EFEFEF;
 }
@@ -245,5 +251,11 @@
   .little-contact {
     max-width: 85%;
     border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-small {
+    border-radius: 7px;
   }
 }
