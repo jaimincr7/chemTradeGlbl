@@ -244,6 +244,7 @@
 @media screen and (max-width: 600px) {
   .chotu-letters {
     margin-right: 17px;
+    text-align: center;
   }
 }
 

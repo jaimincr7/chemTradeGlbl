@@ -8,7 +8,6 @@ import map from '../../../Assets/images/map.png';
 const Contact = () => {
   const [form] = Form.useForm();
 
-
   return (
     <>
       <div className="container-contact-us">
@@ -65,7 +64,7 @@ const Contact = () => {
       <br />
       <br />
       <div className='App centeredCard '>
-        <Card style={{ backgroundColor: '#F5F5F5', width: '55%', borderRadius: '15px' }}>
+        <Card style={{ backgroundColor: '#F5F5F5', width: '90%', borderRadius: '15px' }}>
           <h3>Get in <span style={{ color: '#FBC311' }}>Touch</span></h3>
           <Form
             form={form}
