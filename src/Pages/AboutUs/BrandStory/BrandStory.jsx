@@ -4,7 +4,6 @@ import abtUs from '../../../Assets/images/AboutPage1.png';
 
 const BrandStory = () => {
 
-
   return (
     <>
       <div className="container-about-us">

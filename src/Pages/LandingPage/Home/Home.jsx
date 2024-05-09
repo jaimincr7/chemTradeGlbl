@@ -11,6 +11,7 @@ const Home = () => {
         <div className="description-md center-text">
           Partnering for Success
         </div>
+        <br />
         <div style={{ margin: '15px auto', width: '198px', textAlign: 'center' }}>
           <Button shape="round" >Know More</Button>
         </div>

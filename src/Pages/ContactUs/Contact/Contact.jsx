@@ -63,8 +63,8 @@ const Contact = () => {
       <br />
       <br />
       <br />
-      <div className='App centeredCard '>
-        <Card style={{ backgroundColor: '#F5F5F5', width: '90%', borderRadius: '15px' }}>
+      <div className='App centeredCard'>
+        <Card className='cards' style={{ backgroundColor: '#F5F5F5', }}>
           <h3>Get in <span style={{ color: '#FBC311' }}>Touch</span></h3>
           <Form
             form={form}
@@ -97,13 +97,37 @@ const Contact = () => {
       <br />
       <br />
       <br />
-      <div className='App' style={{margin: '35px'}}>
-        <img className='little-contact' src={map} alt="Sample"  style={{ maxHeight: '320px'}}/>
+      <div className='App' style={{ margin: '35px' }}>
+        <img className='little-contact' src={map} alt="Sample" style={{ maxHeight: '320px' }} />
       </div>
       <br />
       <div className='App' style={{ lineHeight: '1px' }}>
-        <h3>ChemTrade Global <span style={{ color: '#FBC311' }}>Impex LLP</span></h3>
-        <p>typesetting industry, Mumbai, India - 123456</p>
+        <Row justify="center" gutter={[4, 16]}>
+          <Col xs={{ span: 15, offset: 2 }} lg={{ span: 6, }}>
+            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}>
+              <div className='App'>
+                <h2>Mumbai</h2>
+                <p>Sawali Society, Laxmi Nagar, Ghatkopar East, Mumbai, Maharashtra 400075</p>
+              </div>
+            </Card>
+          </Col>
+          <Col xs={{ span: 15, offset: 2 }} lg={{ span: 6, }}>
+            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}>
+              <div className='App'>
+                <h2>Hyderabad</h2>
+                <p>CFV8+F3H, Old Patigadda, Chikoti Gardens, Begumpet, Hyderabad, Telangana 500016</p>
+              </div>
+            </Card>
+          </Col>
+          <Col xs={{ span: 15, offset: 2 }} lg={{ span: 6, }}>
+            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}>
+              <div className='App'>
+                <h2>Gujarat</h2>
+                <p>Third Floor, Corporate Park, Corporate Park, Sector 8, Gandhidham, Gujarat 370203</p>
+              </div>
+            </Card>
+          </Col>
+        </Row>
       </div>
       <br />
     </>

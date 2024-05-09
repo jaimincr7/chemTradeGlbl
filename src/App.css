@@ -44,7 +44,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +57,7 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 170vh; /* Set a minimum height equal to viewport height */
+  min-height: 100vh; /* Set a minimum height equal to viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,7 +209,6 @@
 .centeredCard {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .custom-input {
@@ -243,7 +242,19 @@
 
 @media screen and (max-width: 600px) {
   .chotu-letters {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .chotu-letters-footers {
+    text-align: center;
     margin-right: 17px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sm-about-us {
     text-align: center;
   }
 }
@@ -258,5 +269,25 @@
 @media screen and (max-width: 600px) {
   .footer-small {
     border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    width: 100%;
+    border-radius: 0%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    width: 40%;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 100vh;
   }
 }

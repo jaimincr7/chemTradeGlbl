@@ -21,7 +21,7 @@ const Footer = () => {
           </Col>
           <Col xs={{ span: 24 }} lg={{ span: 5 }}>
             <div className='App' >
-              <ul className='chotu-letters' style={{ wordWrap: 'break-word', color: 'white' }} onClick={() => window.scrollTo(0, 0)}>
+              <ul  style={{ wordWrap: 'break-word', color: 'white' }} onClick={() => window.scrollTo(0, 0)}>
                 <p onClick={() => { navigate('/landing') }}>Home</p>
                 <p onClick={() => { navigate('/about-us') }}>About</p>
                 <p onClick={() => { navigate('/products') }}>Products</p>
@@ -32,7 +32,7 @@ const Footer = () => {
           </Col>
           <Col xs={{ span: 24 }} lg={{ span: 5 }}>
             <div>
-              <ul className='chotu-letters' style={{ wordWrap: 'break-word', color: 'white' }}>
+              <ul className='chotu-letters-footers' style={{ wordWrap: 'break-word', color: 'white' }}>
                 <h3 style={{ fontWeight: '600' }}>Follow Us: <LinkedinFilled /></h3>
                 <h3 style={{ fontWeight: '600' }}>Contact Us </h3>
                 <p><EnvironmentOutlined /> Sawali Society, Laxmi Nagar, <br /> Ghatkopar East, Mumbai, <br /> Maharashtra 400075</p>
