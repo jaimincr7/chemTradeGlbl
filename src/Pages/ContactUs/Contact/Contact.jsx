@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
       <div className="container-contact-us">
-        <span className="highlight-ab big-texts">Contact Us</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800' }}>Contact Us</span>
         <br />
       </div>
       <div style={{ backgroundColor: '#F5F5F5' }}>
@@ -98,13 +98,15 @@ const Contact = () => {
       <br />
       <br />
       <div className='App' style={{ margin: '35px' }}>
-        <img className='little-contact' src={map} alt="Sample" style={{ maxHeight: '320px' }} />
+        <img className='little-contact' src={map} alt="Sample" style={{ height: '451px', width: '818px' }} />
       </div>
       <br />
       <div className='App' style={{ lineHeight: '1px' }}>
         <Row justify="center" gutter={[4, 16]}>
           <Col xs={{ span: 15, offset: 2 }} lg={{ span: 6, }}>
-            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}>
+            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }} 
+              onClick={() => { window.open('https://maps.app.goo.gl/RCzbLNoqiAsaSokn6?g_st=iw', '_blank'); }}
+              className='location-card'>
               <div className='App'>
                 <h2>Mumbai</h2>
                 <p>Sawali Society, Laxmi Nagar, Ghatkopar East, Mumbai, Maharashtra 400075</p>
@@ -112,7 +114,9 @@ const Contact = () => {
             </Card>
           </Col>
           <Col xs={{ span: 15, offset: 2 }} lg={{ span: 6, }}>
-            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}>
+            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}
+              className='location-card'
+              onClick={() => { window.open('https://maps.app.goo.gl/N3H7DsRaj4S1MC288?g_st=iw', '_blank'); }}>
               <div className='App'>
                 <h2>Hyderabad</h2>
                 <p>CFV8+F3H, Old Patigadda, Chikoti Gardens, Begumpet, Hyderabad, Telangana 500016</p>
@@ -120,7 +124,9 @@ const Contact = () => {
             </Card>
           </Col>
           <Col xs={{ span: 15, offset: 2 }} lg={{ span: 6, }}>
-            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}>
+            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}
+              onClick={() => { window.open('https://maps.app.goo.gl/VcbWvwVRbm61t5Qd7?g_st=iw', '_blank'); }}
+              className='location-card'>
               <div className='App'>
                 <h2>Gujarat</h2>
                 <p>Third Floor, Corporate Park, Corporate Park, Sector 8, Gandhidham, Gujarat 370203</p>

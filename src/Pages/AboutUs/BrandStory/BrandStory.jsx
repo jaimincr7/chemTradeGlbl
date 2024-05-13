@@ -7,7 +7,7 @@ const BrandStory = () => {
   return (
     <>
       <div className="container-about-us">
-        <span className="highlight-ab big-texts">Brand Story</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800'}}>Brand Story</span>
         <br />
       </div>
       <br />

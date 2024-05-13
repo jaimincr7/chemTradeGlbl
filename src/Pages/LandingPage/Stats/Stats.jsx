@@ -7,6 +7,7 @@ const Stats = () => {
     <>
       <div className='Stats App' >
         <div >
+          <br/>
           <Row>
             <Col xs={{ span: 24 }} lg={{ span: 6 }}>
               <div className='App'>

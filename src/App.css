@@ -51,6 +51,18 @@
   flex-direction: column;
 }
 
+.container-coming-soon {
+  background-image: url('./Assets/images/ctComingSoon.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .container-products {
   background-image: url('./Assets/images/allProducts.png');
   background-size: cover; /* Adjusts height to fit the entire image while maintaining aspect ratio */
@@ -197,6 +209,10 @@
   color: #FFFFFF;
 }
 
+.location-card:hover{
+  cursor: pointer;
+}
+
 .ant-modal-title {
   text-align: center;
 }
@@ -222,6 +238,7 @@
 @media screen and (max-width: 600px) {
   .heading, .big-texts {
     text-align: center;
+    font-size: 48px;
   }
 }
 
@@ -237,6 +254,13 @@
   .AboutUsPic {
     margin-top: 25px;
     margin-left: 75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-icon {
+    height: 28px;
+    margin-left: 18px;
   }
 }
 
@@ -266,6 +290,13 @@
   }
 }
 
+@media screen and (min-width: 600px) {
+  .little-contact {
+    max-width: 85%;
+    border-radius: 20px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .footer-small {
     border-radius: 7px;
@@ -281,13 +312,25 @@
 
 @media screen and (min-width: 600px) {
   .cards {
-    width: 40%;
+    width: 55%;
     border-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .product-title {
+    width: 60%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .container {
     height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .industrialize {
+    width: 70%;
   }
 }

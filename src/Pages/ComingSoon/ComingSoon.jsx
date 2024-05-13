@@ -49,10 +49,10 @@ const ComingSoon = () => {
   return (
     <>
       <div>
-        <div className="container">
+        <div className="container-coming-soon">
           <div >
             <div className="center-text">
-              <img src={logo} alt="Sample" style={{ width: '250px', height: 'auto' }} onClick={() => {navigate('/landing')} }/>
+              <img src={logo} alt="Sample" style={{ width: '280px', height: '75px', backgroundColor: 'white', borderRadius: '15px' }} onClick={() => {navigate('/landing')} }/>
             </div>
             <h1 className="heading">
               Coming <span className="highlight">Soon!</span>

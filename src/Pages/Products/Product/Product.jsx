@@ -6,7 +6,7 @@ const Product = () => {
   return (
     <>
       <div className="container-product">
-        <span className="highlight-ab big-texts">Our Products</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800'}}>Our Products</span>
         <br />
       </div>
       <br />

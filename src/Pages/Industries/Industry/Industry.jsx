@@ -22,12 +22,12 @@ const Industry = () => {
   return (
     <>
       <div className="container-industry">
-        <span className="highlight-ab big-texts">Industries</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800'}}>Industries</span>
         <br />
       </div>
       <br />
       <div className='App' >
-        <h2>
+        <h2 style={{ fontFamily: "Open Sans" }}>
           <span style={{ fontWeight: '400' }}>We cater to multiple </span>
           <span style={{ color: '#FBC311' }}> Chemical Industries</span>
         </h2>
@@ -36,108 +36,108 @@ const Industry = () => {
         </p>
       </div>
       <br />
-      <div>
-        <Row justify="center" gutter={[16, 16]}>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+      <div className='App'>
+        <Row justify="center" >
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
               <img src={icon1} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Agro Chemicals</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               <img src={icon2} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Construction</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
               <img src={icon3} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Fiberglass</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               <img src={icon4} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Flavours & Fragrances</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
               <img src={icon5} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Food & Beverages</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               <img src={icon6} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Laminates & Plywood</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
               <img src={icon7} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Leather</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               <img src={icon8} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Lubricants & Automobiles</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
               <img src={icon9} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Oil & Gas</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               <img src={icon10} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Paints & Coatings</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
               <img src={icon11} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Printing Inks</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               <img src={icon12} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Packaging</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               <img src={icon13} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Paper</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               {/* <img src={} alt="Sample" style={{ maxHeight: '128px' }} /> */}
               <img src={icon14} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Personal Care</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
               <img src={icon15} alt="Sample" style={{ maxWidth: '30%', maxHeight: '30%', width: 'auto', height: 'auto' }} />
               <p style={{ fontSize: '13px' }}>Pharmaceuticals</p>
             </div>
           </Col>
-          <Col xs={{ span: 10 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 10 }} lg={{ span: 5, }}>
             <div className='App'>
-              <h3 style={{ fontSize: '33px', color: '#FBC311', whiteSpace: 'pre-wrap' }}>&amp; Many More</h3>
+              <h3 style={{ fontSize: '22px', color: '#FBC311', whiteSpace: 'pre-wrap' }}>&amp; <br/> Many <br/>More</h3>
             </div>
           </Col>
         </Row>

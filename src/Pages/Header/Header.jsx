@@ -1,5 +1,5 @@
 import React from 'react';
-import headerIcon from '../../Assets/images/headerIcon.png';
+import headerIcon from '../../Assets/images/CTLogo.png';
 import { Col, Row, Menu, Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
 
@@ -23,6 +23,11 @@ const Header = () => {
       url: '/products',
     },
     {
+      label: 'Industries',
+      key: 'industry',
+      url: '/industry',
+    },
+    {
       label: 'Contacts',
       key: 'contacts',
       url: '/contact-us'
@@ -40,20 +45,20 @@ const Header = () => {
       <div className="">
         <Row align="middle">
           <Col span={8}>
-            <div className="header-icon App">
-              <img src={headerIcon} alt="Sample" style={{ maxHeight: '58px' }} />
+            <div className=" App">
+              <img className='header-icon' src={headerIcon} alt="Sample" style={{ paddingTop: '6px', paddingBottom: '2px' }} />
             </div>
           </Col>
-          <Col span={4}>
+          <Col span={5}>
           </Col>
-          <Col span={12}>
+          <Col span={10}>
             <div className="header-menus">
               <Menu mode="horizontal" >
                 {items.map(item => {
                   if (item.button) {
                     return (
                       <Menu.Item key={item.key} >
-                        <Button shape="round" onClick={() => { navigate(item.url) }} style={{ borderWidth: '0.5px', borderColor: 'black', width: '160px' }}>Get in Touch</Button>
+                        <Button shape="round" onClick={() => { navigate(item.url) }} style={{ borderWidth: '0.5px', borderColor: 'black', width: '158px' }}>Get in Touch</Button>
                       </Menu.Item>
                     );
                   } else {
