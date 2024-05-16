@@ -7,7 +7,7 @@ const BrandStory = () => {
   return (
     <>
       <div className="container-about-us">
-        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800'}}>Brand Story</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800' }}>Brand Story</span>
         <br />
       </div>
       <br />
@@ -34,12 +34,18 @@ const BrandStory = () => {
         </Row>
       </div>
       <br />
+      <div className='continer-about-us-landing'>
+        <p className='glbl-prsc' style={{ color: 'white', fontFamily: 'Open Sans, Arial, sans-serif', lineHeight: '0.1' }}>Global
+          <span style={{ color: '#FBC311', fontWeight: '700'}}> Presence</span>
+        </p>
+        <p style={{ color: 'white', fontFamily: 'Open Sans, Arial, sans-serif', fontSize: '16px', width: '75%', fontWeight: '400' }}>
+          We have laid a unique footprint with operations across the Indian Subcontinent and in over 15 countries. Our operations are handled by an entrepreneurial team of well trained, dedicated employees who are driven by a sense of commitment and professionalism. With our head office based in Mumbai and branch offices in Hyderabad, Gujarat, Delhi, Kolkata, we have a broader reach to meet the requirements of our clients than any other supplier currently.
+        </p>
+      </div>
       <div className="container-about-us-small App">
         <h1 className="highlight-ab big-texts" style={{ color: 'black' }}>Brand <span style={{ color: '#FBC311' }}>Story</span></h1>
         <br />
       </div>
-      <br />
-      <br />
       <div>
         <Row gutter={[16, 16]}>
           <Col xs={{ span: 20, offset: 2 }} lg={{ span: 8, offset: 3 }}>

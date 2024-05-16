@@ -11,7 +11,7 @@ const Products = () => {
     <>
       <div className="container-products">
         <br />
-        <div className="description-md " style={{ fontFamily: 'Open Sans' }}>
+        <div className="description-md " style={{ fontFamily: 'Open Sans, Arial, sans-serif' }}>
           Our <span style={{ color: '#FBC311', fontWeight: '600' }}>Services</span>
         </div>
         <h2 className='App' style={{ color: 'white', wordWrap: 'break-word', }}>We exist to cater to all your chemical requirements.</h2>

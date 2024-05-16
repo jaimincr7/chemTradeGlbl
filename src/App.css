@@ -63,6 +63,18 @@
   flex-direction: column;
 }
 
+.continer-about-us-landing {
+  background-image: url('./Assets/images/aboutUsLanding.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 48vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .container-products {
   background-image: url('./Assets/images/allProducts.png');
   background-size: cover; /* Adjusts height to fit the entire image while maintaining aspect ratio */
@@ -300,6 +312,24 @@
 @media screen and (max-width: 600px) {
   .footer-small {
     border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .continer-about-us-landing {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .glbl-prsc {
+    font-size: 38px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .glbl-prsc {
+    font-size: 58px;
   }
 }
 

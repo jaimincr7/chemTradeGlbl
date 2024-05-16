@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container" style={{ fontFamily: 'Open Sans'}}>
+      <div className="container" style={{ fontFamily: 'Open Sans, Arial, sans-serif'}}>
         <span className="highlight-md big-texts" style={{ fontWeight: '700'}}>25 Years Strong</span>
         <div className="description-md center-text">
           Partnering for Success

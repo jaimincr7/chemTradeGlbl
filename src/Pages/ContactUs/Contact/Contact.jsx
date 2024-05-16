@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
       <div className="container-contact-us">
-        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800' }}>Contact Us</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '800' }}>Contact Us</span>
         <br />
       </div>
       <div style={{ backgroundColor: '#F5F5F5' }}>

@@ -18,11 +18,10 @@ import icon15 from '../../../Assets/images/Group 29.png';
 
 const Industry = () => {
 
-
   return (
     <>
       <div className="container-industry">
-        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800'}}>Industries</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '800'}}>Industries</span>
         <br />
       </div>
       <br />

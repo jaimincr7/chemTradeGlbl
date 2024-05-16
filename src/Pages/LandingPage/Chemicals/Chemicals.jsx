@@ -8,7 +8,7 @@ const Chemicals = () => {
     <>
       <div className='Chemicals App' >
         <br />
-        <div style={{ fontSize: '33px', fontFamily: 'Open Sans' }}>
+        <div style={{ fontSize: '33px', fontFamily: 'Open Sans, Arial, sans-serif' }}>
           Speciality <span style={{ fontWeight: 'bold', color: '#FBC311' }}>Chemicals</span>
         </div>
         <br />
