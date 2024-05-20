@@ -7,11 +7,12 @@ const Stats = () => {
     <>
       <div className='Stats App' >
         <div >
-          <br/>
-          <Row>
+          <br />
+          <br />
+          <Row gutter={[16,24]}>
             <Col xs={{ span: 24 }} lg={{ span: 6 }}>
               <div className='App'>
-                <span style={{ fontSize: '75px', fontWeight: 'bold', color: '#FBC311' }}>03</span>
+                <span style={{ fontSize: '75px', fontWeight: 'bold', color: '#FBC311', height: '102px' }}>03</span>
                 <br />
                 <span style={{ fontSize: '20px' }}>Branches</span>
               </div>
@@ -39,6 +40,7 @@ const Stats = () => {
             </Col>
           </Row>
         </div>
+        <br />
         <br />
         <br />
       </div>

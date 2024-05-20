@@ -7,25 +7,25 @@ const BrandStory = () => {
   return (
     <>
       <div className="container-about-us">
-        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans', fontWeight: '800' }}>Brand Story</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '800', fontSize: '68px' }}>Brand Story</span>
         <br />
       </div>
       <br />
       <div>
         <br />
         <Row justify="center" gutter={[16, 16]}>
-          <Col xs={{ span: 24 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 24 }} lg={{ span: 6 }}>
             <div className='App'>
-              <img src={abtUs} alt="Sample" style={{ maxHeight: '300px' }} />
+              <img src={abtUs} alt="Sample" style={{ maxHeight: '350px' }} />
 
             </div>
           </Col>
-          <Col xs={{ span: 24 }} lg={{ span: 6, }}>
+          <Col xs={{ span: 24 }} lg={{ span: 6, offset: 1 }}>
             <div className='App'>
-              <h2>
-                From around the <span style={{ color: '#FBC311' }}>World</span> to your Doorstep
+              <h2 style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '600' }}>
+                From around the <span style={{ color: '#FBC311', fontWeight: '800' }}>World</span> to your <span style={{ color: '#FBC311', fontWeight: '800' }}> Doorstep</span> 
               </h2>
-              <p style={{ fontSize: 'small' }}>
+              <p className='about-small-para' style={{ fontSize: 'small', }}>
                 With a long-standing experience of over 30 years, Mr. Ashish K. Shah the founding partner, along with the efforts of his professionally specialised team, started this organization with a vision to establish the largest supply chain in order to cater to the wide range of industries both domestically and internationally.
                 Starting from a small business, involved in supply of chemical ingredients and solvents to a single market; Chemtrade Global Impex LLP has presently grown into a successful service provider to the industry of chemicals
               </p>

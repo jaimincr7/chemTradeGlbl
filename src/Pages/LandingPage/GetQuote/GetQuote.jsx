@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Row } from 'antd';
 
 const GetQuote = () => {
@@ -8,14 +8,13 @@ const GetQuote = () => {
     <>
       <div className="container-get-quote">
         <br />
-        <div style={{ fontSize: '40px' }}>
-          <span style={{ color: 'white' }}>Get a </span><span style={{ color: '#FBC311' }}>Quote Today</span>
+        <div style={{ fontSize: '40px', fontFamily: 'Open Sans, Arial, sans-serif' }}>
+          <span style={{ color: 'white' }}>Get a </span><span style={{ color: '#FBC311', fontWeight: '700' }}>Quote Today</span>
         </div>
-        <p style={{ color: 'white', width: '75%', textAlign: 'center' }}>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece old.
-        </p>
+        <br />
+        <br />
         <div>
-          <Button shape="round" style={{ borderWidth: '0.5px', width: '140px' }}>Inquire Now</Button>
+          <Button shape="round" style={{ borderWidth: '1.5px', width: '140px', borderColor: '#FBC311' }}>Inquire Now</Button>
         </div>
         <br />
         <br />

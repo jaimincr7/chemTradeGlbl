@@ -170,6 +170,10 @@
   background-color: #EFEFEF;
 }
 
+.line-footer{
+  background-color: #0157B9;  
+}
+
 .ChemicalHeading{
   margin-top: 15px;
   font-size: medium;
@@ -250,7 +254,14 @@
 @media screen and (max-width: 600px) {
   .heading, .big-texts {
     text-align: center;
-    font-size: 48px;
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading, .center-text {
+    text-align: center;
+    font-size: 40px;
   }
 }
 
@@ -265,7 +276,7 @@
 @media screen and (max-width: 600px) {
   .AboutUsPic {
     margin-top: 25px;
-    margin-left: 75px;
+    margin-left: 45px;
   }
 }
 
@@ -353,6 +364,13 @@
   }
 }
 
+@media screen and (min-width: 600px) {
+  .footer-text {
+    position: absolute;
+    right: 5px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .container {
     height: 100vh;
@@ -362,5 +380,12 @@
 @media screen and (max-width: 600px) {
   .industrialize {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-small-para{
+    margin-left: 17px;
+    margin-right: 17px;
   }
 }
