@@ -15,8 +15,10 @@ import icon12 from '../../../Assets/images/Group 26.png';
 import icon13 from '../../../Assets/images/Group 27.png';
 import icon14 from '../../../Assets/images/Group 28.png';
 import icon15 from '../../../Assets/images/Group 29.png';
+import { useNavigate } from 'react-router-dom';
 
 const Industry = () => {
+  const navigate = useNavigate();
 
   return (
     <>
@@ -143,7 +145,10 @@ const Industry = () => {
       </div>
       <br />
       <div className='App' style={{ marginTop: '15px' }}>
-        <Button shape="round" style={{ borderWidth: '0.5px', borderColor: '#FBC311', width: '140px' }}>View Products</Button>
+        <Button 
+        onClick={() => {navigate('/products')}}
+        shape="round" 
+        style={{ borderWidth: '0.5px', borderColor: '#FBC311', width: '140px' }}>View Products</Button>
       </div>
       <br />
       <br />

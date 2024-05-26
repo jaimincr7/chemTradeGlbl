@@ -1,7 +1,9 @@
 import React from 'react';
 import { Col, Row, Button } from 'antd';
+import { useNavigate } from 'react-router-dom';
 
 const Chemicals = () => {
+  const navigate = useNavigate();
 
   return (
     <>
@@ -41,7 +43,7 @@ const Chemicals = () => {
           </Row>
           <br />
           <div style={{ marginTop: '15px' }}>
-            <Button shape="round" style={{ borderWidth: '1.5px', width: '140px', borderColor: '#FBC311', fontWeight: '500' }}>View Products</Button>
+            <Button onClick={() => {navigate('/products')}} shape="round" style={{ borderWidth: '1.5px', width: '140px', borderColor: '#FBC311', fontWeight: '500' }}>View Products</Button>
           </div>
           <br />
           <br />

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Button, Row } from 'antd';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-
+  const navigate = useNavigate();
 
   return (
     <>
@@ -14,7 +15,7 @@ const Home = () => {
           </div>
           <br />
           <div style={{ margin: '15px auto', width: '198px', textAlign: 'center' }}>
-            <Button shape="round" style={{ borderWidth: '1.5px', width: '140px', borderColor: '#FBC311' }}>Know More</Button>
+            <Button shape="round" onClick={() => {navigate('/about-us')}} style={{ borderWidth: '1.5px', width: '140px', borderColor: '#FBC311' }}>Know More</Button>
           </div>
         </div>
       {/* </div> */}

@@ -10,7 +10,7 @@ const Header = () => {
     {
       label: 'Home',
       key: 'home',
-      url: '/landing'
+      url: '/'
     },
     {
       label: 'About',

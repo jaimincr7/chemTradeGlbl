@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import ComingSoon from './Pages/ComingSoon/ComingSoon';
 import LandingPage from './Pages/LandingPage/LandingPage';
@@ -10,12 +10,13 @@ import Industries from './Pages/Industries/Industries';
 
 function App() {
 
+
   return (
-    <Router>
+    <Router >
       <Suspense fallback={<div>Loading...</div>}>
         <Routes >
-          <Route exact path="/" element={<ComingSoon />} />
-          <Route path="/landing" element={<LandingPage />} />
+          <Route exact path="/" element={<LandingPage />} />
+          <Route path="/coming" element={<ComingSoon/>} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/products" element={<Products />} />

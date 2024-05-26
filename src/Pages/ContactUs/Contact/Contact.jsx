@@ -3,15 +3,32 @@ import { Button, Row, Col, Card, Form, } from 'antd';
 import location from '../../../Assets/images/location.png';
 import phone from '../../../Assets/images/phone.png';
 import email from '../../../Assets/images/email.png';
-import map from '../../../Assets/images/map.png';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [form] = Form.useForm();
 
+  const onFinish = (values) => {
+    emailjs
+      .send('service_bq6wuhh', 'template_xslubdk', values, {
+        publicKey: 'rRONxuEeNPdBVCGk0',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+    //This is random comment
+    form.resetFields();
+  };
+
   return (
     <>
       <div className="container-contact-us">
-        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '800' }}>Contact Us</span>
+        <span className="highlight-ab big-texts about-small-para" style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '800', fontSize: '64px' }}>Contact Us</span>
         <br />
       </div>
       <div style={{ backgroundColor: '#F5F5F5' }}>
@@ -21,31 +38,29 @@ const Contact = () => {
         </h1>
         <br />
         <div className='App'>
-          <Row>
-            <Col span={2}>
-            </Col>
-            <Col span={7}>
+          <Row justify='center'>
+            <Col xs={{ span: 24 }} lg={{ span: 6 }}>
               <img src={location} alt="Sample" style={{ maxHeight: '68px' }} />
               <h3>
                 Address
               </h3>
-              <p className='adres' style={{ lineHeight: '1px' }} >
-                Lorem Ipsum is simpl
+              <p className='adres' style={{ lineHeight: '1px', fontWeight: '500' }} >
+                DAMJI SHAMJI CORPORATE SQUARE
               </p>
               <p>
-                Mumbai - 123456
+                Sawali Society, Laxmi Nagar,<br /> Ghatkopar East, Mumbai,<br /> Maharashtra 400075
               </p>
             </Col>
-            <Col span={7}>
+            <Col xs={{ span: 24 }} lg={{ span: 6 }}>
               <img src={phone} alt="Sample" style={{ maxHeight: '68px' }} />
               <h3>
                 Contact
               </h3>
               <p>
-                +91 1234567890
+                +91 2249568800
               </p>
             </Col>
-            <Col span={7}>
+            <Col xs={{ span: 24 }} lg={{ span: 6 }}>
               <img src={email} alt="Sample" style={{ maxHeight: '68px' }} />
               <h3>
                 Email Id
@@ -53,8 +68,6 @@ const Contact = () => {
               <p>
                 info@cgil.com
               </p>
-            </Col>
-            <Col span={1}>
             </Col>
           </Row>
         </div>
@@ -69,7 +82,7 @@ const Contact = () => {
           <Form
             form={form}
             name="control-hooks"
-          // onFinish={onFinish}
+            onFinish={onFinish}
           >
             <Form.Item name="name" rules={[{ required: true }]}>
               <input type='text' placeholder='Name' className='custom-input' />
@@ -81,7 +94,7 @@ const Contact = () => {
               <input type='text' placeholder='Email ID' className='custom-input' />
             </Form.Item>
             <Form.Item name="contact_number" >
-              <input type='text' placeholder='Contact No.: +91 9988775566' className='custom-input' />
+              <input type='text' placeholder='Contact Number' className='custom-input' />
             </Form.Item>
             <Form.Item name="message" >
               <input type='text' placeholder='Message' className='custom-input' />
@@ -97,19 +110,15 @@ const Contact = () => {
       <br />
       <br />
       <br />
-      <div className='App' style={{ margin: '35px' }}>
-        <img className='little-contact' src={map} alt="Sample" style={{ height: '451px', width: '818px' }} />
-      </div>
-      <br />
       <div className='App' style={{ lineHeight: '1px' }}>
-        <Row justify="center" gutter={[4, 16]}>
+        <Row justify="center" gutter={[0, 16]}>
           <Col xs={{ span: 15, offset: 2 }} lg={{ span: 6, }}>
-            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }} 
+            <Card style={{ width: '85%', backgroundColor: '#F5F5F5', borderRadius: '15px' }}
               onClick={() => { window.open('https://maps.app.goo.gl/RCzbLNoqiAsaSokn6?g_st=iw', '_blank'); }}
               className='location-card'>
               <div className='App'>
                 <h2>Mumbai</h2>
-                <p>Sawali Society, Laxmi Nagar, Ghatkopar East, Mumbai, Maharashtra 400075</p>
+                <p>A-902 Damji Shamji Corporate Square, Laxmi Nagar, Ghatkopar East, Mumbai, Maharashtra - 400075</p>
               </div>
             </Card>
           </Col>

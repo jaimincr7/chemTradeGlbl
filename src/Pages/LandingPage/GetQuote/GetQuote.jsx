@@ -1,8 +1,9 @@
 import React from 'react';
 import { Button, Row } from 'antd';
+import { useNavigate } from 'react-router-dom';
 
 const GetQuote = () => {
-
+  const navigate = useNavigate();
 
   return (
     <>
@@ -14,7 +15,7 @@ const GetQuote = () => {
         <br />
         <br />
         <div>
-          <Button shape="round" style={{ borderWidth: '1.5px', width: '140px', borderColor: '#FBC311' }}>Inquire Now</Button>
+          <Button shape="round" onClick={() => {navigate('/contact-us')}} style={{ borderWidth: '1.5px', width: '140px', borderColor: '#FBC311' }}>Inquire Now</Button>
         </div>
         <br />
         <br />

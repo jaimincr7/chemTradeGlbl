@@ -1,12 +1,14 @@
 import React from 'react';
 import { Button, Row, Col, Card, Form, } from 'antd';
+import { useNavigate } from 'react-router-dom';
 
 const Product = () => {
+  const navigate = useNavigate();
 
   return (
     <>
       <div className="container-product">
-        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '800'}}>Our Products</span>
+        <span className="highlight-ab big-texts" style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '800' }}>Our Products</span>
         <br />
       </div>
       <br />
@@ -21,38 +23,38 @@ const Product = () => {
       <br />
       <br />
       <div className='App'>
-        <Row justify="center" gutter={[16,20]}>
-          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2}} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+        <Row justify="center" gutter={[16, 20]}>
+          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
             <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
               Solvents
             </h3>
           </Col>
-          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2}} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
             <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
               Pharmaceuticals
             </h3>
           </Col>
-          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2}} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
             <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
               Neutraceuticals
             </h3>
           </Col>
-          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2}} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
             <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
               Polymers
             </h3>
           </Col>
-          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2}} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
             <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
               Speciality Chemicals
             </h3>
           </Col>
-          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2}} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
             <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
               Aromatic Ingredients
             </h3>
           </Col>
-          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2}} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+          <Col xs={{ span: 13 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
             <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
               Food Chemicals
             </h3>
@@ -62,12 +64,12 @@ const Product = () => {
         <br />
       </div >
       <div style={{ backgroundColor: '#FAFAFA' }}>
-        <div style={{  paddingTop: '5px', paddingBottom: '5px', }}>
+        <div style={{ paddingTop: '5px', paddingBottom: '5px', }}>
           <h1 className='App'>
             <span style={{ fontWeight: 'lighter' }}>Our</span> <span style={{ color: '#FBC311' }}>Products</span>
           </h1>
           <Row justify="center" className='chottu-letters-product'>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}} >
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }} >
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 Food Chemicals
               </h3>
@@ -77,7 +79,7 @@ const Product = () => {
                 <p>Tri-n-Butylamine</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', }}>
                 CYCLOHEXYLAMINE
               </h3>
@@ -86,8 +88,8 @@ const Product = () => {
                 <p>Dicyclohexylamine</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
-              <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold',  }}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
+              <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', }}>
                 CYCLOHEXYLAMINE
               </h3>
               <ul className='chotu-letters' style={{ wordWrap: 'break-word' }}>
@@ -96,7 +98,7 @@ const Product = () => {
                 <p>Trimethylamine</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 ETHYLAMINE
               </h3>
@@ -106,7 +108,7 @@ const Product = () => {
                 <p>Trimethylamine</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', }}>
                 ETHYLHEXYLAMINE
               </h3>
@@ -115,7 +117,7 @@ const Product = () => {
                 <p>Bis-2-Ethylhexylamine</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 ISOPROPYLAMINE
               </h3>
@@ -124,7 +126,7 @@ const Product = () => {
                 <p>Dicyclohexylamine</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 PROPYLAMINE
               </h3>
@@ -134,7 +136,7 @@ const Product = () => {
                 <p>Tri-n-Butylamine</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 ETHANOLMINES
               </h3>
@@ -144,7 +146,7 @@ const Product = () => {
                 <p>Trimethylamine</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 className='chotu-letters' style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }}>
                 ALPHATIC SOLVENTS
               </h3>
@@ -153,7 +155,7 @@ const Product = () => {
                 <p>Petroleum Ethers</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 CHLORINATED SOLVENTS
               </h3>
@@ -172,7 +174,7 @@ const Product = () => {
                 <p>Methyl Iso Butyl Ketone</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 ACID & ESTERS
               </h3>
@@ -188,7 +190,7 @@ const Product = () => {
                 <p>N Propyl Acetate</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 HYDROCARBONS
               </h3>
@@ -200,7 +202,7 @@ const Product = () => {
                 <p>Solvent C-IX</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 ALCOHOLS
               </h3>
@@ -215,7 +217,7 @@ const Product = () => {
                 <p>Tertiary Butanol (TBA)</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 GLYCOLS
               </h3>
@@ -231,7 +233,7 @@ const Product = () => {
                 <p>Ethyl Glycol</p>
               </ul>
             </Col>
-            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3}}>
+            <Col xs={{ span: 11, offset: 2 }} lg={{ span: 5, offset: 3 }}>
               <h3 style={{ color: '#FBC311', textDecoration: 'underline', fontWeight: 'bold', wordWrap: 'break-word' }} className='chotu-letters'>
                 MONOMERS
               </h3>
@@ -256,7 +258,7 @@ const Product = () => {
         <br />
       </div>
       <Row justify="space-evenly">
-        <Col xs={{ span: 12, offset: 1 }} lg={{ span: 5, offset: 3}}>
+        <Col xs={{ span: 12, offset: 1 }} lg={{ span: 5, offset: 3 }}>
           <ul className='chotu-letters'  >
             <p>Acetonitrile</p>
             <p>Maleic Anhydride</p>
@@ -267,7 +269,7 @@ const Product = () => {
             <p>Glycerine BP/ USP</p>
           </ul>
         </Col>
-        <Col xs={{ span: 12, offset: 1 }} lg={{ span: 5, offset: 3}}>
+        <Col xs={{ span: 12, offset: 1 }} lg={{ span: 5, offset: 3 }}>
           <ul className='chotu-letters' style={{ wordWrap: 'break-word' }} >
             <p>Methane Sulphonic Acid</p>
             <p>Dicyandiamide</p>
@@ -279,7 +281,7 @@ const Product = () => {
             <p>N-Methyl Pyrrolidone</p>
           </ul>
         </Col>
-        <Col xs={{ span: 12, offset: 1 }} lg={{ span: 5, offset: 3}}>
+        <Col xs={{ span: 12, offset: 1 }} lg={{ span: 5, offset: 3 }}>
           <ul className='chotu-letters' style={{ wordWrap: 'break-word' }} >
             <p>Pentaerythritol 95% / 98%</p>
             <p>Tetrahydrofuran</p>
@@ -299,8 +301,11 @@ const Product = () => {
         <span className='App' style={{ color: 'white' }}>
           Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece old.
         </span>
-        <br/>
-        <Button shape="round" style={{ borderWidth: '0.5px', width: '140px' }}>Inquire Now</Button>
+        <br />
+        <Button
+          shape="round"
+          style={{ borderWidth: '0.5px', width: '140px' }}
+          onClick={() => { navigate('/contact-us') }}>Inquire Now</Button>
         <br />
       </div>
 

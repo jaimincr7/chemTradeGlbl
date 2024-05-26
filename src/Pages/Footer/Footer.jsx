@@ -22,7 +22,7 @@ const Footer = () => {
           <Col xs={{ span: 24 }} lg={{ span: 5 }}>
             <div className='App' >
               <ul style={{ color: 'white', fontWeight: '400', fontSize: '18px' }} onClick={() => window.scrollTo(0, 0)}>
-                <p onClick={() => { navigate('/landing') }}>Home</p>
+                <p onClick={() => { navigate('/') }}>Home</p>
                 <p onClick={() => { navigate('/about-us') }}>About</p>
                 <p onClick={() => { navigate('/products') }}>Products</p>
                 <p onClick={() => { navigate('/industry') }}>Industries</p>
@@ -35,7 +35,7 @@ const Footer = () => {
               <ul className='chotu-letters-footers' style={{ wordWrap: 'break-word', color: 'white' }}>
                 <h3 style={{ fontWeight: '700', fontSize: '20px' }}>Follow Us:  &nbsp;&nbsp;<LinkedinFilled /></h3>
                 <h3 style={{ fontWeight: '700', fontSize: '20px' }}>Contact Us </h3>
-                <p><EnvironmentOutlined /> Sawali Society, Laxmi Nagar, <br /> Ghatkopar East, Mumbai, <br /> Maharashtra 400075</p>
+                <p><EnvironmentOutlined /> A-902 Damji Shamji Corporate Square, Laxmi Nagar, <br /> Ghatkopar East, Mumbai, <br /> Maharashtra 400075</p>
                 <p><MailOutlined /> info@cgil.com </p>
               </ul>
             </div>

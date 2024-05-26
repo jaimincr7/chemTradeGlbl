@@ -9,9 +9,6 @@ const AboutUs = () => {
   return (
     <>
       <div className='AboutUs' style={{ marginTop: '20px', marginBottom: '20px', }}>
-        <div className='App' style={{ marginTop: '20px', marginBottom: '20px' }}>
-          <span style={{ color: '#00ff01', fontSize: '3em', WebkitTextStroke: '5px black' }}>since 1998</span>
-        </div>
         <div style={{ marginTop: '20px', marginBottom: '20px' }}>
           <Row justify='center'>
             <Col xs={{ span: 24 }} lg={{ span: 7, offset: 2 }}>
