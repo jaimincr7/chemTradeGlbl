@@ -1,10 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import headerIcon from '../../Assets/images/CTLogo.png';
-import { Col, Row, Menu, Button } from 'antd';
+import { Col, Row, Menu, Button, Modal, Form, Space, Input } from 'antd';
 import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const [form] = Form.useForm();
   const navigate = useNavigate();
+  const [openGetInTouch, setOpenGetInTouch] = useState(false);
+
+  //For the form part
+  const layout = {
+    labelCol: { span: 8 },
+    wrapperCol: { span: 16 },
+  };
+  const tailLayout = {
+    wrapperCol: { offset: 8, span: 16 },
+  };
+
+  const onFinish = (values) => {
+    emailjs
+      .send('service_bq6wuhh', 'template_xslubdk', values, {
+        publicKey: 'rRONxuEeNPdBVCGk0',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+    //This is random comment
+    form.resetFields();
+    setOpenGetInTouch(false);
+  };
+
+  //This is for the Modal for get in Touch 
+  const showModal = () => {
+    setOpenGetInTouch(true);
+  };
+
+  const handleCancel = () => {
+    setOpenGetInTouch(false);
+  };
 
   const items = [
     {
@@ -58,7 +97,7 @@ const Header = () => {
                   if (item.button) {
                     return (
                       <Menu.Item key={item.key} >
-                        <Button shape="round" onClick={() => { navigate(item.url) }} style={{ borderWidth: '0.5px', borderColor: 'black', width: '158px' }}>Get in Touch</Button>
+                        <Button shape="round" onClick={() => { showModal() }} style={{ borderWidth: '0.5px', borderColor: 'black', width: '158px' }}>Get in Touch</Button>
                       </Menu.Item>
                     );
                   } else {
@@ -74,6 +113,43 @@ const Header = () => {
           </Col>
         </Row>
       </div>
+      <Modal
+        open={openGetInTouch}
+        title="Get in touch"
+        onCancel={handleCancel}
+        footer={null}
+      >
+        <Form
+          {...layout}
+          form={form}
+          name="control-hooks"
+          onFinish={onFinish}
+          style={{ maxWidth: 600 }}
+        >
+          <Form.Item name="name" label="Name" rules={[{ required: true }]}>
+            <Input />
+          </Form.Item>
+          <Form.Item name="contact_number" label="Contact Number" rules={[{ required: true }]}>
+            <Input />
+          </Form.Item>
+          <Form.Item name="contact_email" label="Contact Email" rules={[{ required: true }]}>
+            <Input />
+          </Form.Item>
+          <Form.Item name="company" label="Company" >
+            <Input />
+          </Form.Item>
+          <Form.Item name="description" label="Description" >
+            <Input />
+          </Form.Item>
+          <Form.Item {...tailLayout}>
+            <Space>
+              <Button type="primary" htmlType="submit">
+                Submit
+              </Button>
+            </Space>
+          </Form.Item>
+        </Form>
+      </Modal>
     </>
   )
 }
