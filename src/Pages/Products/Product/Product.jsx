@@ -298,9 +298,6 @@ const Product = () => {
         <div style={{ fontSize: '40px' }}>
           <span style={{ color: 'white' }}>Get a </span><span style={{ color: '#FBC311' }}>Quote Today</span>
         </div>
-        <span className='App' style={{ color: 'white' }}>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece old.
-        </span>
         <br />
         <Button
           shape="round"

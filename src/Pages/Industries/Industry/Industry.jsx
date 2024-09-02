@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card, Button } from 'antd';
+import { Row, Col, Button } from 'antd';
 import icon1 from '../../../Assets/images/Group 15.png';
 import icon2 from '../../../Assets/images/Group 16.png';
 import icon3 from '../../../Assets/images/Group 17.png';
@@ -32,9 +32,6 @@ const Industry = () => {
           <span style={{ fontWeight: '400' }}>We cater to multiple </span>
           <span style={{ color: '#FBC311' }}> Chemical Industries</span>
         </h2>
-        <p style={{ fontWeight: '400', fontSize: '15px', wordBreak: 'break-word' }}>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece old.
-        </p>
       </div>
       <br />
       <div className='App'>

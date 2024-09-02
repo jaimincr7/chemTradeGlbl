@@ -7,11 +7,11 @@ const Industries = () => {
 
   return (
     <>
-      <div style={{ overflowX: 'hidden' }}>
+      
         <Header />
         <Industry />
         <Footer />
-      </div>
+      
     </>
   )
 }

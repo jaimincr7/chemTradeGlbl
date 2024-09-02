@@ -79,10 +79,20 @@ const Header = () => {
     }
   ]
 
+  const stickyStyle = {
+    position: '-webkit-sticky', // For Safari
+    position: 'sticky',
+    top: 0,
+    zIndex: 1000, // Ensure it's above other content
+    backgroundColor: '#fff', // Background color to prevent overlap issues
+    padding: '10px', // Optional padding
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', // Optional shadow for better visibility
+  };
+
   return (
     <>
-      <div className="">
-        <Row align="middle">
+      <div className="" style={stickyStyle} >
+        <Row align="middle" >
           <Col span={8}>
             <div className=" App">
               <img className='header-icon' src={headerIcon} alt="Sample" style={{ paddingTop: '6px', paddingBottom: '2px' }} />
@@ -92,7 +102,7 @@ const Header = () => {
           </Col>
           <Col span={10}>
             <div className="header-menus">
-              <Menu mode="horizontal" >
+              <Menu mode="horizontal"  style={{ position: 'sticky', zIndex: '1000'}}>
                 {items.map(item => {
                   if (item.button) {
                     return (

@@ -15,27 +15,27 @@ const Chemicals = () => {
         <br />
         <div style={{ marginTop: '20px', overflowX: 'hidden', }}>
           <Row gutter={[16,38]}>
-            <Col xs={{ span: 24 }} lg={{ span: 6, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+            <Col xs={{ span: 24 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
               <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
                 Di Methyl Formamide
               </h3>
             </Col>
-            <Col xs={{ span: 24 }} lg={{ span: 6, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+            <Col xs={{ span: 24 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
               <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
                 Sodium Formate
               </h3>
             </Col>
-            <Col xs={{ span: 24 }} lg={{ span: 6, offset: 1 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+            <Col xs={{ span: 24 }} lg={{ span: 5, offset: 1 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
               <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
                 Pentaerythritol
               </h3>
             </Col>
-            <Col xs={{ span: 24 }} lg={{ span: 6, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+            <Col xs={{ span: 24 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
               <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
                 Solvent C-9
               </h3>
             </Col>
-            <Col xs={{ span: 24 }} lg={{ span: 6, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
+            <Col xs={{ span: 24 }} lg={{ span: 5, offset: 2 }} style={{ backgroundColor: '#A2328E', borderRadius: '8px', boxShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
               <h3 style={{ color: 'white', wordWrap: 'break-word' }}>
                 Hexane
               </h3>

@@ -20,8 +20,8 @@ const BrandStory = () => {
             </div>
           </Col>
           <Col xs={{ span: 24 }} lg={{ span: 6, offset: 1 }}>
-            <div className='App'>
-              <h2 style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '600' }}>
+            <div className=''>
+              <h2 className='about-small-para' style={{ fontFamily: 'Open Sans, Arial, sans-serif', fontWeight: '600' }}>
                 From around the <span style={{ color: '#FBC311', fontWeight: '800' }}>World</span> to your <span style={{ color: '#FBC311', fontWeight: '800' }}> Doorstep</span>
               </h2>
               <p className='about-small-para' style={{ fontSize: 'small', fontSize: '14px' }}>
